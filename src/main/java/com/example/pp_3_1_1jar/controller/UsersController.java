@@ -15,7 +15,7 @@ public class UsersController {
 
     private final UserService userService;
 
-    @Autowired
+    // @Autowired  since spring 4.3 no longer need to specify an explicit injection annotation in such a single-constructor scenario
     public UsersController (UserService userService) {
         this.userService = userService;
     }
