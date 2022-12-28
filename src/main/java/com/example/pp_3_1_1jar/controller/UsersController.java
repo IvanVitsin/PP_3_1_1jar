@@ -3,7 +3,6 @@ package com.example.pp_3_1_1jar.controller;
 import com.example.pp_3_1_1jar.model.User;
 import com.example.pp_3_1_1jar.service.UserService;
 import javax.validation.Valid;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
